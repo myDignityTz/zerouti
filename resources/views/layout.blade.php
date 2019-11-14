@@ -21,6 +21,31 @@
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
 </head>
 <body>
+    <!-- Load Facebook SDK for JavaScript -->
+    <div id="fb-root"></div>
+    <script>
+        window.fbAsyncInit = function() {
+            FB.init({
+                xfbml            : true,
+                version          : 'v5.0'
+            });
+        };
+
+        (function(d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) return;
+            js = d.createElement(s); js.id = id;
+            js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+            fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));</script>
+
+    <!-- Your customer chat code -->
+    <div class="fb-customerchat"
+         attribution=setup_tool
+         page_id="106095114160774"
+         theme_color="#67b868">
+    </div>
+    
     <div id="app">
         <nav class="bg-teal-500 shadow">
             <div class="w-2/3 mx-auto">
@@ -30,6 +55,8 @@
                     <ul class="flex items-center">
                         <li><a href="/" class="mx-4 block text-teal-100 py-6">Home</a></li>
                         <li><a href="/about" class="mx-4 block text-teal-100 py-6">About Us</a></li>
+                        <li><a href="/dalili" class="mx-4 block text-teal-100 py-6">Dalili</a></li>
+                        <li><a href="/kuzuia" class="mx-4 block text-teal-100 py-6">Kuzuia</a></li>
                     </ul>
                 </div>
             </div>
