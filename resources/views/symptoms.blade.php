@@ -64,4 +64,15 @@
             signs and symptoms it may include some of the signs and symptoms listed above.
         </div>
     </section>
+
+    <section>
+        <table>
+            <thead>
+                <tr>
+                   <th>Urinary tract infection "UTI"</th>
+                   <th>Signs and symptoms</th>
+                </tr>
+            </thead>
+        </table>
+    </section>
 @endsection
