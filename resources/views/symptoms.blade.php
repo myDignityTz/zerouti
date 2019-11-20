@@ -66,13 +66,13 @@
     </section>
 
     <section>
-        <table>
-            <thead>
-                <tr>
-                   <th>Urinary tract infection "UTI"</th>
-                   <th>Signs and symptoms</th>
-                </tr>
-            </thead>
-        </table>
+{{--        <table>--}}
+{{--            <thead>--}}
+{{--                <tr>--}}
+{{--                   <th>Urinary tract infection "UTI"</th>--}}
+{{--                   <th>Signs and symptoms</th>--}}
+{{--                </tr>--}}
+{{--            </thead>--}}
+{{--        </table>--}}
     </section>
 @endsection
