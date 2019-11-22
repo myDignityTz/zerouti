@@ -627,6 +627,10 @@ video {
   }
 }
 
+.bg-gradient {
+  background-image: linear-gradient(240deg, #2c7a7b 5%, #81e6d9 100%);
+}
+
 .sr-only {
   position: absolute;
   width: 1px;

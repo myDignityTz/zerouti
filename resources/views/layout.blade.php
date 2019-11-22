@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="{{ str_replace('_', '-', app()->getLocale()) }}" class="text-gray-800">
+<html lang="{{ str_replace('_', '-', app()->getLocale()) }}" class="text-gray-800 antialiased" style="scroll-behavior: smooth;">
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -48,19 +48,65 @@
     </div>
 
     <div id="app">
-        <nav class="bg-teal-500 shadow">
-            <div class="w-2/3 mx-auto">
+        <nav class="bg-teal-500 bg-gradient">
+            <div class="px-16">
                 <div class="flex justify-between items-center">
-                    <div class="font-extrabold">
-                        <img class="h-8" src="/img/logo/logo-black.png" alt="">
+                    <div class="flex items-center">
+                        <div>
+                            <img class="h-8" src="{{ asset('img/logo/genu.png') }}" alt="">
+                        </div>
+                        <span class="mx-4 text-teal-200">|</span>
+                        <div>
+                            <img class="h-6" src="{{ asset('img/logo/logo-black.png') }}" alt="">
+                        </div>
                     </div>
 
                     <ul class="flex items-center">
-                        <li><a href="/" class="mx-4 block text-teal-100 py-6">Home</a></li>
-                        <li><a href="/about" class="mx-4 block text-teal-100 py-6">About Us</a></li>
-                        <li><a href="/symptoms" class="mx-4 block text-teal-100 py-6">Symptoms</a></li>
-                        <li><a href="/preventions" class="mx-4 block text-teal-100 py-6">Preventions</a></li>
+                        <li>
+                            <a href="{{ url('/') }}"
+                               class="mx-4 block text-white font-semibold py-8"
+                            >
+                                {{ cache('lang') == 'eng' ? 'Home' : 'Nyumbani' }}
+                            </a>
+                        </li>
+                        <li>
+                            <a href="{{ url('about') }}"
+                               class="mx-4 block text-white font-semibold py-8"
+                            >
+                                {{ cache('lang') == 'eng' ? 'About Us' : 'Kuhusu' }}
+                            </a>
+                        </li>
+                        <li>
+                            <a href="{{ url('symptoms') }}"
+                               class="mx-4 block text-white font-semibold py-8"
+                            >
+                                {{ cache('lang') == 'eng' ? 'Symptoms' : 'Dalili' }}
+                            </a>
+                        </li>
+                        <li>
+                            <a href="{{ url('preventions') }}"
+                               class="mx-4 block text-white font-semibold py-8"
+                            >
+                                {{ cache('lang') == 'eng' ? 'Preventions' : 'Kudhibiti' }}
+                            </a>
+                        </li>
+                        <li>
+                            <a href="{{ url('treatments') }}"
+                               class="mx-4 block text-white font-semibold py-8"
+                            >
+                                {{ cache('lang') == 'eng' ? 'Treatment' : 'Matibabu' }}
+                            </a>
+                        </li>
                     </ul>
+
+                    <div class="flex items-center bg-teal-200 px-1 py-1 rounded">
+                        <a href="?lang=eng"
+                           class="px-2 text-xs uppercase tracking-wider rounded {{ cache('lang') == 'eng' ? 'bg-white shadow' : '' }}"
+                        >Eng</a>
+                        <a href="?lang=swa"
+                           class="px-2 text-xs uppercase tracking-wider rounded {{ cache('lang') == 'swa' ? 'bg-white shadow' : '' }}"
+                        >Swa</a>
+                    </div>
                 </div>
             </div>
         </nav>
