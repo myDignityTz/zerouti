@@ -8,6 +8,6 @@ class PreventionController extends Controller
 {
     public function __invoke()
     {
-        return view("preventions");
+        return view("static.{$this->lang}.preventions");
     }
 }

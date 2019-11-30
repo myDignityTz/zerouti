@@ -8,6 +8,6 @@ class TreatmentController extends Controller
 {
     public function __invoke()
     {
-        return view("treatments");
+        return view("static.{$this->lang}.treatments");
     }
 }

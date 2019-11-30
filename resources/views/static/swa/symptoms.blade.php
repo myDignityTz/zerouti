@@ -3,40 +3,45 @@
 @section('content')
     <section class="px-16 mx-auto">
         <header class="mb-12 mt-12">
-            <h1 class="text-teal-500 text-3xl font-bold text-gradient">Symptoms:</h1>
+            <h1 class="text-teal-500 text-3xl font-bold text-gradient">Dalili:</h1>
         </header>
     </section>
 
     <section class="flex px-16 pb-24">
         <div class="w-1/2">
-            <h2 class="text-sm uppercase tracking-wider font-semibold mb-4">Symptoms of UTI's</h2>
+            <h2 class="text-sm uppercase tracking-wider font-semibold mb-4">
+                Dalili za UTI’s
+            </h2>
             <ul class="align-top">
                 <li class="flex items-center mb-4">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="h-5 w-5 text-teal-500 fill-current">
                         <path fill="none" d="M0 0h24v24H0z"/><path d="M12 22C6.477 22 2 17.523 2 12S6.477 2 12 2s10 4.477 10 10-4.477 10-10 10zm0-2a8 8 0 1 0 0-16 8 8 0 0 0 0 16zm-.997-4L6.76 11.757l1.414-1.414 2.829 2.829 5.656-5.657 1.415 1.414L11.003 16z"/>
                     </svg>
-                    <span class="ml-4">Have a urinary tract</span>
+                    <span class="ml-4">Kuwa na hali ya mkwamo wa mkojo</span>
                 </li>
                 <li class="flex items-center mb-4">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="h-5 w-5 text-teal-500 fill-current"><path fill="none" d="M0 0h24v24H0z"/><path d="M12 22C6.477 22 2 17.523 2 12S6.477 2 12 2s10 4.477 10 10-4.477 10-10 10zm0-2a8 8 0 1 0 0-16 8 8 0 0 0 0 16zm-.997-4L6.76 11.757l1.414-1.414 2.829 2.829 5.656-5.657 1.415 1.414L11.003 16z"/></svg>
-                    <span class="ml-4">Having pain while urinating</span>
+                    <span class="ml-4">Kuwa na maumivu wakati ya kukojoa</span>
                 </li>
                 <li class="flex items-center mb-4">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="h-5 w-5 text-teal-500 fill-current"><path fill="none" d="M0 0h24v24H0z"/><path d="M12 22C6.477 22 2 17.523 2 12S6.477 2 12 2s10 4.477 10 10-4.477 10-10 10zm0-2a8 8 0 1 0 0-16 8 8 0 0 0 0 16zm-.997-4L6.76 11.757l1.414-1.414 2.829 2.829 5.656-5.657 1.415 1.414L11.003 16z"/></svg>
-                    <span class="ml-4">Have urine from a small amount</span>
+                    <span class="ml-4">Kuwa na hali ya mkojo kutoka toka kwa kiasi kidogo</span>
                 </li>
                 <li class="flex items-center mb-4">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="h-5 w-5 text-teal-500 fill-current"><path fill="none" d="M0 0h24v24H0z"/><path d="M12 22C6.477 22 2 17.523 2 12S6.477 2 12 2s10 4.477 10 10-4.477 10-10 10zm0-2a8 8 0 1 0 0-16 8 8 0 0 0 0 16zm-.997-4L6.76 11.757l1.414-1.414 2.829 2.829 5.656-5.657 1.415 1.414L11.003 16z"/></svg>
-                    <span class="ml-4">Cloudy-like urine</span>
+                    <span class="ml-4">Mkojo unaokuwa kama mawingu</span>
                 </li>
                 <li class="flex  mb-4">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="h-5 w-5 text-teal-500 fill-current">
                         <path fill="none" d="M0 0h24v24H0z"/><path d="M12 22C6.477 22 2 17.523 2 12S6.477 2 12 2s10 4.477 10 10-4.477 10-10 10zm0-2a8 8 0 1 0 0-16 8 8 0 0 0 0 16zm-.997-4L6.76 11.757l1.414-1.414 2.829 2.829 5.656-5.657 1.415 1.414L11.003 16z"/></svg>
-                    <span class="ml-4">Have a reddish-brown, pinkish-brown urine acne-like color (having a sign of blood in the urine)</span>
+                    <span class="ml-4">
+                        Kuwa na mkojo wenye rangi nyekundu, wenye rangi kama pinki au rangi kama ya
+                        kokakola (kuwa na ishara ya damu kwenye mkojo)
+                    </span>
                 </li>
                 <li class="flex items-center mb-4">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="h-5 w-5 text-teal-500 fill-current"><path fill="none" d="M0 0h24v24H0z"/><path d="M12 22C6.477 22 2 17.523 2 12S6.477 2 12 2s10 4.477 10 10-4.477 10-10 10zm0-2a8 8 0 1 0 0-16 8 8 0 0 0 0 16zm-.997-4L6.76 11.757l1.414-1.414 2.829 2.829 5.656-5.657 1.415 1.414L11.003 16z"/></svg>
-                    <span class="ml-4">Have a strong-smelling urine</span>
+                    <span class="ml-4">Kuwa na mkojo wenye harufu kali</span>
                 </li>
             </ul>
         </div>
@@ -55,11 +60,11 @@
                 </svg>
             </div>
             <div class="w-4/5">
-                <h3 class="text-xl font-bold text-teal-800 mb-4">The most common symptoms occur in women.</h3>
+                <h3 class="text-xl font-bold text-teal-800 mb-4">Dalili za kawaida zinazotokea kwa wanawake.</h3>
                 <div class="text-lg text-gray-900">
-                    Women with lower urinary tract infections may have pain in the pelvis.
-                    This includes the symptoms listed above. Symptoms of upper urinary tract
-                    infections are similar in women and men.
+                    Wanawake wenye maambukizi ya chini ya njia ya mkojo wanaweza kuwa na maumivu ya fupanyonga. Hii ni
+                    pamoja na dalili zilizoorodheshwa hapo juu. Dalili za maambukizi ya juu ya njia ya mkojo zinafanana
+                    kwa wanawake na wanaume.
                 </div>
             </div>
         </div>
@@ -70,11 +75,11 @@
                 </svg>
             </div>
             <div class="w-4/5">
-                <h3 class="text-xl font-bold text-teal-800 mb-4">Most common symptoms occur in men.</h3>
+                <h3 class="text-xl font-bold text-teal-800 mb-4">Dalili za kwaida zinazotokea kwa wanaume.</h3>
                 <div class="text-lg text-gray-900">
-                    Symptoms of lower urinary tract infection (UTI) in men include rectum (rectal) pain as well as the
-                    symptoms mentioned above. Symptoms of upper urinary tract infections in men are similar to the symptoms
-                    that are affecting or occurring in women.
+                    Dalili za maambukizi ya chini ya njia ya mkojo “UTI” kwa wanaume ni pamoja na maumivu ya rectum
+                    (rectal) pamoja na dalili ambazo zimetajwa hapo juu. Dalili za maambukizi ya juu ya njia ya mkojo
+                    kwa wanaume ni sawa na dalili zile zinazowakumba au zinazotokea kwa wanawake.
                 </div>
             </div>
         </div>
@@ -82,107 +87,111 @@
 
     <section class="py-24 bg-teal-700 bg-gradient">
         <div class="w-2/3 mx-auto text-teal-100 text-4xl">
-            Urinary tract infection "UTI" does not always show signs and symptoms but when these infections present the
-            signs and symptoms it may include some of the signs and symptoms listed above.
+            Maambukizi ya njia ya mkojo “UTI” hayatoi ishara na dalili mara kwa mara lakini maambukizi haya yanapotoa
+            ishara na dalili zinaweza kujumuisha baadhi ya ishara na dalili zilizoorodheshwa hapo juu.
         </div>
     </section>
 
     <section class="py-24">
         <div class="px-16">
             <header class="mb-12">
-                <h2 class="mb-4 font-semibold text-2xl text-teal-700">TYPES OF UTIs</h2>
+                <h2 class="mb-4 font-semibold text-2xl text-teal-700">AINA ZA UTIs</h2>
                 <p class="text-gray-700 text-lg">
-                    Each type of UTI" infection can give or show signs and symptoms and this will depend on the location of
-                    the infection.
+                    Kila aina ya maambukizi ya “UTI” inaweza kutoa au kuonyesha ishara na dalili yake na hali hii
+                    itategemeanan na sehemu ambapo patakuwa na maambukizi hayo.
                 </p>
             </header>
             <table class="w-full text-left">
                 <thead class="text-sm uppercase text-gray-500 tracking-wider">
                     <tr class="border-b">
-                        <th class="py-4">Urinary tract infection "UTI"</th>
-                        <th class="py-4 px-4">Signs and symptoms</th>
+                        <th class="py-4">
+                            Sehemu ya maambukizi ya njia ya mkojo “UTI”
+                        </th>
+                        <th class="py-4 px-4">
+                            Ishara na dalili
+                        </th>
                     </tr>
                 </thead>
 
                 <tbody>
                     <tr class="border-b align-top">
-                        <th class="py-6 capitalize text-gray-700">urethritis</th>
+                        <th class="py-6 capitalize text-gray-700">Urethra</th>
                         <td class="py-6 px-4">
                             <ul>
                                 <li class="flex items-center">
                                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="h-5 w-5 text-teal-500 fill-current">
                                         <path fill="none" d="M0 0h24v24H0z"/><path d="M12 22C6.477 22 2 17.523 2 12S6.477 2 12 2s10 4.477 10 10-4.477 10-10 10zm0-2a8 8 0 1 0 0-16 8 8 0 0 0 0 16zm-.997-4L6.76 11.757l1.414-1.414 2.829 2.829 5.656-5.657 1.415 1.414L11.003 16z"/>
                                     </svg>
-                                    <span class="ml-2">Have pain while urinating</span>
+                                    <span class="ml-2">Kuwa na maumivu wakati wa kukojoa</span>
                                 </li>
                             </ul>
 
                         </td>
                     </tr>
                     <tr class="border-b align-top">
-                        <th class="py-6 capitalize text-gray-700">Cystitis</th>
+                        <th class="py-6 capitalize text-gray-700">Kibofu</th>
                         <td class="py-6 px-4">
                             <ul>
                                 <li class="flex items-center mb-2">
                                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="h-5 w-5 text-teal-500 fill-current">
                                         <path fill="none" d="M0 0h24v24H0z"/><path d="M12 22C6.477 22 2 17.523 2 12S6.477 2 12 2s10 4.477 10 10-4.477 10-10 10zm0-2a8 8 0 1 0 0-16 8 8 0 0 0 0 16zm-.997-4L6.76 11.757l1.414-1.414 2.829 2.829 5.656-5.657 1.415 1.414L11.003 16z"/>
                                     </svg>
-                                    <span class="ml-2">Pressure in the diaphragm</span>
+                                    <span class="ml-2">Shinikizo katika fupanyonga</span>
                                 </li>
                                 <li class="flex items-center mb-2">
                                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="h-5 w-5 text-teal-500 fill-current">
                                         <path fill="none" d="M0 0h24v24H0z"/><path d="M12 22C6.477 22 2 17.523 2 12S6.477 2 12 2s10 4.477 10 10-4.477 10-10 10zm0-2a8 8 0 1 0 0-16 8 8 0 0 0 0 16zm-.997-4L6.76 11.757l1.414-1.414 2.829 2.829 5.656-5.657 1.415 1.414L11.003 16z"/>
                                     </svg>
-                                    <span class="ml-2">Lower abdominal pain</span>
+                                    <span class="ml-2">Maumivu ya chini ya tumbo</span>
                                 </li>
                                 <li class="flex items-center mb-2">
                                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="h-5 w-5 text-teal-500 fill-current">
                                         <path fill="none" d="M0 0h24v24H0z"/><path d="M12 22C6.477 22 2 17.523 2 12S6.477 2 12 2s10 4.477 10 10-4.477 10-10 10zm0-2a8 8 0 1 0 0-16 8 8 0 0 0 0 16zm-.997-4L6.76 11.757l1.414-1.414 2.829 2.829 5.656-5.657 1.415 1.414L11.003 16z"/>
                                     </svg>
-                                    <span class="ml-2">Frequent urination, and pain during urination</span>
+                                    <span class="ml-2">Kukojoa mara kwa mara, na kuwa na maumivu wakati ya kukojoa</span>
                                 </li>
                                 <li class="flex items-center mb-2">
                                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="h-5 w-5 text-teal-500 fill-current">
                                         <path fill="none" d="M0 0h24v24H0z"/><path d="M12 22C6.477 22 2 17.523 2 12S6.477 2 12 2s10 4.477 10 10-4.477 10-10 10zm0-2a8 8 0 1 0 0-16 8 8 0 0 0 0 16zm-.997-4L6.76 11.757l1.414-1.414 2.829 2.829 5.656-5.657 1.415 1.414L11.003 16z"/>
                                     </svg>
-                                    <span class="ml-2">Urine having blood</span>
+                                    <span class="ml-2">Mkojo kuwa na damu</span>
                                 </li>
                             </ul>
                         </td>
                     </tr>
                     <tr class="align-top">
-                        <th class="py-6 capitalize text-gray-700">cystitis</th>
+                        <th class="py-6 capitalize text-gray-700">Figo</th>
                         <td class="py-6 px-4">
                             <ul>
                                 <li class="flex items-center mb-2">
                                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="h-5 w-5 text-teal-500 fill-current">
                                         <path fill="none" d="M0 0h24v24H0z"/><path d="M12 22C6.477 22 2 17.523 2 12S6.477 2 12 2s10 4.477 10 10-4.477 10-10 10zm0-2a8 8 0 1 0 0-16 8 8 0 0 0 0 16zm-.997-4L6.76 11.757l1.414-1.414 2.829 2.829 5.656-5.657 1.415 1.414L11.003 16z"/>
                                     </svg>
-                                    <span class="ml-2">Having upper-back pain in the kidney</span>
+                                    <span class="ml-2">Kuwa na maumivu ya juu ya upande kwenye figo</span>
                                 </li>
                                 <li class="flex items-center mb-2">
                                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="h-5 w-5 text-teal-500 fill-current">
                                         <path fill="none" d="M0 0h24v24H0z"/><path d="M12 22C6.477 22 2 17.523 2 12S6.477 2 12 2s10 4.477 10 10-4.477 10-10 10zm0-2a8 8 0 1 0 0-16 8 8 0 0 0 0 16zm-.997-4L6.76 11.757l1.414-1.414 2.829 2.829 5.656-5.657 1.415 1.414L11.003 16z"/>
                                     </svg>
-                                    <span class="ml-2">Have a high fever</span>
+                                    <span class="ml-2">Kuwa na homa kali</span>
                                 </li>
                                 <li class="flex items-center mb-2">
                                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="h-5 w-5 text-teal-500 fill-current">
                                         <path fill="none" d="M0 0h24v24H0z"/><path d="M12 22C6.477 22 2 17.523 2 12S6.477 2 12 2s10 4.477 10 10-4.477 10-10 10zm0-2a8 8 0 1 0 0-16 8 8 0 0 0 0 16zm-.997-4L6.76 11.757l1.414-1.414 2.829 2.829 5.656-5.657 1.415 1.414L11.003 16z"/>
                                     </svg>
-                                    <span class="ml-2">Have a shaking situation</span>
+                                    <span class="ml-2">Kuwa na hali ya kutetemeka</span>
                                 </li>
                                 <li class="flex items-center mb-2">
                                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="h-5 w-5 text-teal-500 fill-current">
                                         <path fill="none" d="M0 0h24v24H0z"/><path d="M12 22C6.477 22 2 17.523 2 12S6.477 2 12 2s10 4.477 10 10-4.477 10-10 10zm0-2a8 8 0 1 0 0-16 8 8 0 0 0 0 16zm-.997-4L6.76 11.757l1.414-1.414 2.829 2.829 5.656-5.657 1.415 1.414L11.003 16z"/>
                                     </svg>
-                                    <span class="ml-2">Have nausea</span>
+                                    <span class="ml-2">Kuwa na kichefuchefu</span>
                                 </li>
                                 <li class="flex items-center mb-2">
                                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="h-5 w-5 text-teal-500 fill-current">
                                         <path fill="none" d="M0 0h24v24H0z"/><path d="M12 22C6.477 22 2 17.523 2 12S6.477 2 12 2s10 4.477 10 10-4.477 10-10 10zm0-2a8 8 0 1 0 0-16 8 8 0 0 0 0 16zm-.997-4L6.76 11.757l1.414-1.414 2.829 2.829 5.656-5.657 1.415 1.414L11.003 16z"/>
                                     </svg>
-                                    <span class="ml-2">Vomiting</span>
+                                    <span class="ml-2">Kutapika</span>
                                 </li>
                             </ul>
                         </td>
