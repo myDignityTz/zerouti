@@ -48,63 +48,63 @@
     </div>
 
     <div id="app">
-        <nav class="bg-teal-500 bg-gradient">
-            <div class="px-16">
-                <div class="flex justify-between items-center">
-                    <div class="flex items-center">
+        <nav class="w-full bg-teal-500 bg-gradient">
+            <div class="lg:px-16">
+                <div class="lg:flex lg:justify-between lg:items-center">
+                    <div class="flex items-center justify-between px-4 py-4">
                         <div>
                             <img class="h-8" src="{{ asset('img/logo/genu.png') }}" alt="">
                         </div>
-                        <span class="mx-4 text-teal-200">|</span>
+                        <span class="hidden mx-4 text-teal-200">|</span>
                         <div>
                             <img class="h-6" src="{{ asset('img/logo/logo-black.png') }}" alt="">
                         </div>
                     </div>
 
-                    <ul class="flex items-center">
+                    <ul class="lg:flex items-center">
                         <li>
                             <a href="{{ url('/') }}"
-                               class="mx-4 block text-white font-semibold py-8"
+                               class="lg:mx-4 lg:px-0 px-4 block text-white font-semibold lg:py-8 py-4"
                             >
                                 {{ cache('lang') == 'eng' ? 'Home' : 'Nyumbani' }}
                             </a>
                         </li>
                         <li>
                             <a href="{{ url('about') }}"
-                               class="mx-4 block text-white font-semibold py-8"
+                               class="lg:mx-4 lg:px-0 px-4 block text-white font-semibold lg:py-8 py-4"
                             >
                                 {{ cache('lang') == 'eng' ? 'About Us' : 'Kuhusu' }}
                             </a>
                         </li>
                         <li>
                             <a href="{{ url('symptoms') }}"
-                               class="mx-4 block text-white font-semibold py-8"
+                               class="lg:mx-4 lg:px-0 px-4 block text-white font-semibold lg:py-8 py-4"
                             >
                                 {{ cache('lang') == 'eng' ? 'Symptoms' : 'Dalili' }}
                             </a>
                         </li>
                         <li>
                             <a href="{{ url('preventions') }}"
-                               class="mx-4 block text-white font-semibold py-8"
+                               class="lg:mx-4 lg:px-0 px-4 block text-white font-semibold lg:py-8 py-4"
                             >
                                 {{ cache('lang') == 'eng' ? 'Preventions' : 'Kudhibiti' }}
                             </a>
                         </li>
                         <li>
                             <a href="{{ url('treatments') }}"
-                               class="mx-4 block text-white font-semibold py-8"
+                               class="lg:mx-4 lg:px-0 px-4 block text-white font-semibold lg:py-8 py-4"
                             >
                                 {{ cache('lang') == 'eng' ? 'Treatment' : 'Matibabu' }}
                             </a>
                         </li>
                     </ul>
 
-                    <div class="flex items-center bg-teal-200 px-1 py-1 rounded">
+                    <div class="lg:flex items-center bg-teal-200 lg:px-1 lg:py-1 py-3 px-3 lg:rounded">
                         <a href="?lang=eng"
-                           class="px-2 text-xs uppercase tracking-wider rounded {{ cache('lang') == 'eng' ? 'bg-white shadow' : '' }}"
+                           class="px-2 py-2 text-xs uppercase tracking-wider rounded {{ cache('lang') == 'eng' ? 'bg-white shadow' : '' }}"
                         >Eng</a>
                         <a href="?lang=swa"
-                           class="px-2 text-xs uppercase tracking-wider rounded {{ cache('lang') == 'swa' ? 'bg-white shadow' : '' }}"
+                           class="px-2 py-2 text-xs uppercase tracking-wider rounded {{ cache('lang') == 'swa' ? 'bg-white shadow' : '' }}"
                         >Swa</a>
                     </div>
                 </div>

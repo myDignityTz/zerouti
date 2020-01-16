@@ -631,6 +631,18 @@ video {
   background-image: linear-gradient(240deg, #2c7a7b 5%, #81e6d9 100%);
 }
 
+@media (min-width: 640px) {
+  .video-height {
+    height: 300px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .video-height {
+    height: 565px;
+  }
+}
+
 .sr-only {
   position: absolute;
   width: 1px;

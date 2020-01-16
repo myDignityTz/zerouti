@@ -6,4 +6,16 @@
     background-image: linear-gradient(240deg, hsl(180.79999999999995, 47.3%, 32.7%) 5%, hsl(172.29999999999995, 66.9%, 70.4%) 100%);
 }
 
+@screen sm {
+    .video-height {
+        height: 300px;
+    }
+}
+
+@screen lg {
+    .video-height {
+        height: 565px;
+    }
+}
+
 @import "tailwindcss/utilities";
