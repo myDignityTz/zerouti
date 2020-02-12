@@ -4,7 +4,7 @@
 @section('content')
     <section class="lg:px-16 px-6">
         <header class="lg:mb-12 mb-6 lg:mt-12 mt-6">
-            <h1 class="text-teal-500 lg:text-3xl text-xl font-bold text-gradient">Kudhibiti:</h1>
+            <h1 class="text-teal-500 text-3xl font-bold text-gradient">Kudhibiti:</h1>
         </header>
 
         <div class="flex lg:-mx-4">
@@ -56,7 +56,6 @@
                     </ul>
                 </div>
             </aside>
-
             {{--  Content --}}
             <div class="lg:w-3/4 lg:px-4 w-full">
                 <div class="lg:px-16">
@@ -66,9 +65,7 @@
                             <h3 class="lg:text-2xl text-xl font-semibold text-teal-600">Tawaza njia sahihi</h3>
                         </header>
                         <div class="text-lg lg:leading-loose leading-relaxed">
-                            <h4 class="block mb-6 border-l-4 border-teal-500 pl-4 text-base text-gray-600 font-semibold font-serif">
-                                Jitawaze kuanzia mbele kwenda nyuma
-                            </h4>
+                            <h4 class="block mb-6 border-l-4 border-teal-500 pl-4 text-base text-gray-600 font-semibold font-serif">Jitawaze kuanzia mbele kwenda nyuma</h4>
                             <p class="mb-4">
                                 Mara nyingi maambukizi ya kibofu cha mkojo husababishwa na E. coli, bacteria wa kawaida
                                 wanaioishi kwenye njia yako ya utumbo. Hii hukusaidia kuchimba chakula chako, lakini
@@ -80,14 +77,10 @@
                     {{-- CHANGE SANITARY REGULARLY --}}
                     <section class="mb-12" id="change_sanitary_regularly">
                         <header class="mb-4 lg:pt-12 pt-6">
-                            <h3 class="lg:text-2xl text-xl font-semibold text-teal-600">
-                                Badilisha Pedi Ndani ya Muda Mfupi
-                            </h3>
+                            <h3 class="lg:text-2xl text-xl font-semibold text-teal-600">Badilisha Pedi Ndani ya Muda Mfupi</h3>
                         </header>
                         <div class="text-lg lg:leading-loose leading-relaxed">
-                            <h4 class="block mb-6 border-l-4 border-teal-500 pl-4 text-base text-gray-600 font-semibold font-serif">
-                                Wanawake hupaswa kubadili pedi zao kipindi cha hedhi mara kwa mara
-                            </h4>
+                            <h4 class="block mb-6 border-l-4 border-teal-500 pl-4 text-base text-gray-600 font-semibold font-serif">Wanawake hupaswa kubadili pedi zao kipindi cha hedhi mara kwa mara</h4>
                             <div class="flex flex-col lg:flex-row lg:-mx-4">
                                 <div class="lg:w-2/3 lg:px-4 lg:order-first order-last">
                                     <p class="mb-4">
@@ -118,36 +111,24 @@
                     {{-- UNDERWEAR HYGIENE --}}
                     <section class="mb-12" id="underwear_hygiene">
                         <header class="mb-4 lg:pt-12 pt-0">
-                            <h3 class="lg:text-2xl text-xl font-semibold text-teal-600">
-                                Usafi wa nguo za ndani
-                            </h3>
+                            <h3 class="lg:text-2xl text-xl font-semibold text-teal-600">Usafi wa nguo za ndani</h3>
                         </header>
                         <div class="text-lg lg:leading-loose leading-relaxed">
-                            <h4 class="block mb-6 border-l-4 border-teal-500 pl-4 text-base text-gray-600 font-semibold font-serif">
-                                Usichangie chupi na usivae chupi yenye unyevunyevu
-                            </h4>
-                            <p class="mb-4">
-                                Kuchangia chupi kunaweza kukupa maambukizo ya bakteria ya watu wengine, hivyo basi
-                                inamaanisha ikiwa ukichangia chupi na mtu mwenye bakteria wa E.coli kwenye sehemu za
-                                siri, inakupa hatari ya kuambukizwa UTI.
-                            </p>
-                            <p class="mb-4">
-                                Epuka kuvaa chupi zenye unyevunyevu kwani joto na unyevu ni mazingira mazuri wa
-                                kuzaliana kwa bakteria
-                            </p>
+                            <h4 class="block mb-6 border-l-4 border-teal-500 pl-4 text-base text-gray-600 font-semibold font-serif">Usichangie chupi na usivae chupi yenye unyevunyevu</h4>
+                            <p class="mb-4">Kuchangia chupi kunaweza kukupa maambukizo ya bakteria ya watu wengine,
+                                hivyo basi inamaanisha ikiwa ukichangia chupi na mtu mwenye bakteria wa E.coli kwenye
+                                sehemu za siri, inakupa hatari ya kuambukizwa UTI.</p>
+                            <p class="mb-4">Epuka kuvaa chupi zenye unyevunyevu kwani joto na unyevu ni mazingira mazuri
+                                wa kuzaliana kwa bakteria</p>
                         </div>
                     </section>
                     {{-- DRINK A LOT OF WATER --}}
                     <section class="mb-12" id="drink_a_lot_of_water">
                         <header class="mb-4 lg:pt-12 pt-0">
-                            <h3 class="lg:text-2xl text-xl font-semibold text-teal-600">
-                                Kunywa Maji Mengi
-                            </h3>
+                            <h3 class="lg:text-2xl text-xl font-semibold text-teal-600">Kunywa Maji Mengi</h3>
                         </header>
                         <div class="text-lg lg:leading-loose leading-relaxed">
-                            <h4 class="block mb-6 border-l-4 border-teal-500 pl-4 text-base text-gray-600 font-semibold font-serif">
-                                Kunywa vimiminika kwa wingi hasa maji.
-                            </h4>
+                            <h4 class="block mb-6 border-l-4 border-teal-500 pl-4 text-base text-gray-600 font-semibold font-serif">Kunywa vimiminika kwa wingi hasa maji.</h4>
                             <div class="flex flex-col lg:flex-row lg:-mx-4">
                                 <div class="lg:w-1/2 w-full lg:px-4 order-last lg:order-first">
                                     Kunywa maji mengi husaidia kusafisha njia ya mkojo kwa kuhahakikisha kuwa uta
@@ -163,17 +144,13 @@
                     {{-- HANDWASHING --}}
                     <section class="mb-12" id="handwashing">
                         <header class="mb-4 lg:pt-12 pt-0">
-                            <h3 class="lg:text-2xl text-xl font-semibold text-teal-600">
-                                Kunawa Mikono
-                            </h3>
+                            <h3 class="lg:text-2xl text-xl font-semibold text-teal-600">Kunawa Mikono</h3>
                         </header>
 
                         <div>
                             {{-- Five steps introductions --}}
                             <div class="mb-8">
-                                <h4 class="uppercase text-sm tracking-wider font-semibold mb-4 text-gray-600">
-                                    Hatua tano za kunawa mikono kwa usahihi
-                                </h4>
+                                <h4 class="uppercase text-sm tracking-wider font-semibold mb-4 text-gray-600">Hatua tano za kunawa mikono kwa usahihi</h4>
                                 <div class="leading-loose">
                                     Kuosha mikono yako ni rahisi, na ni njia mojawapo ya kuzuia kusambaa kwa vijidudu.
                                     Mikono safi inaweza kuzuia vijidudu kusambaa kutoka kwa mtu mmoja kwenda kwa
@@ -184,15 +161,11 @@
 
                             {{-- Five steps --}}
                             <div class="mb-12">
-                                <h4 class="mb-4 text-sm uppercase tracking-wider border-b pb-6">
-                                    Fuata hizi hatua tano kila mara
-                                </h4>
-
+                                <h4 class="mb-4 text-sm uppercase tracking-wider border-b pb-6">Fuata hizi hatua tano kila mara</h4>
                                 <div class="flex lg:flex-row flex-col border-b border-dashed py-8">
                                     <div class="lg:w-1/4 w-full lg:pr-8 px-8">
                                         <img class="w-full" src="{{ asset('img/preventions/handwashing/wet.png') }}">
                                     </div>
-
                                     <div class="lg:w-3/4 w-full px-4 py-4 text-xl lg:leading-loose">
                                         <span class="text-teal-600 font-bold">Lowesha</span> mikono yako na maji safi,
                                         yanayotiririka (ya joto au baridi), funga bomba, na paka sabuni.
@@ -206,23 +179,19 @@
                                         Sugua mikono yako kwa kadri ya sekunde 20. Unaweza kuimba nyimbo ya happy
                                         birthday mara mbili na mda utakuwa umetimia.
                                     </div>
-
                                     <div class="lg:order-last order-first lg:w-1/4 w-full lg:pl-8 lg:px-0 px-8">
                                         <img class="w-full" src="{{ asset('img/preventions/handwashing/scrub.png') }}" alt="">
                                     </div>
                                 </div>
 
                                 <div class="flex lg:flex-row flex-col border-b border-dashed py-8">
-
                                     <div class="lg:w-1/4 w-full lg:pr-8 px-8">
                                         <img class="w-full" src="{{ asset('img/preventions/handwashing/rinse.png') }}" alt="">
                                     </div>
-
                                     <div class="lg:w-3/4 w-full px-4 py-4 text-xl leading-loose">
                                         <span class="text-teal-600 font-bold">Suuza</span>  mikono yako vyema na maji
                                         safi , yanayotirirka
                                     </div>
-
                                 </div>
 
                                 <div class="flex lg:flex-row flex-col border-b border-dashed py-8">
@@ -230,7 +199,6 @@
                                         <span class="text-teal-600 font-bold">Kausha</span>  mikono yako kwa taulo safi
                                         au kwa upepo
                                     </div>
-
                                     <div class="lg:w-1/4 lg:order-last order-first w-full lg:pl-8 px-8">
                                         <img class="w-full" src="{{ asset('img/preventions/handwashing/dry.png') }}" alt="">
                                     </div>

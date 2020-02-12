@@ -2,7 +2,7 @@
 
 
 @section('content')
-    <section class="lg:w-2/3 lg:px-0 mx-auto w-full px-6 ">
+    <section class="lg:w-2/3 lg:px-0 mx-auto w-full px-6">
         <header class="lg:mb-12 lg:mt-12 mt-6 mb-6">
             <h1 class="text-teal-500 lg:text-3xl text-xl font-bold text-gradient">Kuhusu:</h1>
         </header>

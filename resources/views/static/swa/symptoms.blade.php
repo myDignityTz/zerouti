@@ -9,9 +9,7 @@
 
     <section class="flex lg:px-16 px-6 pb-24">
         <div class="lg:w-1/2 w-full">
-            <h2 class="text-sm uppercase tracking-wider font-semibold mb-4">
-                Dalili za UTI’s
-            </h2>
+            <h2 class="text-sm uppercase tracking-wider font-semibold mb-4">Dalili za UTI’s</h2>
             <ul class="align-top">
                 <li class="flex items-center mb-4">
                     <div class="flex-shrink-0">
@@ -132,12 +130,8 @@
             <table class="w-full text-left">
                 <thead class="lg:text-sm text-xs uppercase text-gray-500 tracking-wider">
                     <tr class="border-b">
-                        <th class="py-4">
-                            Sehemu ya maambukizi ya njia ya mkojo “UTI”
-                        </th>
-                        <th class="py-4 px-4">
-                            Ishara na dalili
-                        </th>
+                        <th class="py-4">Sehemu ya maambukizi ya njia ya mkojo “UTI”</th>
+                        <th class="py-4 px-4">Ishara na dalili</th>
                     </tr>
                 </thead>
 

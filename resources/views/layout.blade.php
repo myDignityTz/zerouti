@@ -61,7 +61,7 @@
                         </div>
                     </div>
 
-                    <ul class="lg:flex items-center">
+                    <ul class="lg:flex lg:items-center">
                         <li>
                             <a href="{{ url('/') }}"
                                class="lg:mx-4 lg:px-0 px-4 block text-white font-semibold lg:py-8 py-4"
@@ -99,12 +99,14 @@
                         </li>
                     </ul>
 
-                    <div class="lg:flex items-center bg-teal-200 lg:px-1 lg:py-1 py-3 px-3 lg:rounded">
-                        <a href="?lang=eng"
-                           class="px-2 py-2 text-xs uppercase tracking-wider rounded {{ cache('lang') == 'eng' ? 'bg-white shadow' : '' }}"
+                    <div class="flex items-center lg:justify-start justify-end bg-teal-200 lg:px-1 lg:py-1 lg:rounded px-4 py-2 -mx-2">
+                        <a
+                            href="?lang=eng"
+                            class="lg:px-2 lg:py-1 py-2 px-2 text-xs uppercase tracking-wider rounded {{ cache('lang') == 'eng' ? 'bg-white shadow' : '' }}"
                         >Eng</a>
-                        <a href="?lang=swa"
-                           class="px-2 py-2 text-xs uppercase tracking-wider rounded {{ cache('lang') == 'swa' ? 'bg-white shadow' : '' }}"
+                        <a
+                            href="?lang=swa"
+                            class="lg:px-2 lg:py-1 py-2 px-2 text-xs uppercase tracking-wider rounded {{ cache('lang') == 'swa' ? 'bg-white shadow' : '' }}"
                         >Swa</a>
                     </div>
                 </div>
