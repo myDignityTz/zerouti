@@ -26,8 +26,8 @@
     <script>
         window.fbAsyncInit = function() {
             FB.init({
-                xfbml : true,
-                version : 'v5.0'
+                xfbml            : true,
+                version          : 'v6.0'
             });
         };
 
@@ -37,15 +37,17 @@
             js = d.createElement(s); js.id = id;
             js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
             fjs.parentNode.insertBefore(js, fjs);
-        }(document, 'script', 'facebook-jssdk'));
-    </script>
+        }(document, 'script', 'facebook-jssdk'));</script>
 
     <!-- Your customer chat code -->
     <div class="fb-customerchat"
          attribution=setup_tool
-         page_id="106095114160774"
-         theme_color="#67b868">
+         page_id="110493423898822"
+         theme_color="#67b868"
+         logged_in_greeting="Ongea na Safi, ujue zaidi!"
+         logged_out_greeting="Ongea na Safi, ujue zaidi!">
     </div>
+
 
     <div id="app">
         <nav class="w-full bg-teal-500 bg-gradient">
